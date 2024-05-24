@@ -1,0 +1,10 @@
+{
+    "env": "dev",
+    "port": "3000",
+    "app_name": "ecommerce",
+    "database_url":"user=postgres password=root dbname=ecommerce host=localhost port=5432 sslmode=disable",
+    "max_db_conn": 10,
+    "token_size": 256,
+    "token_expiry": 24,
+    "refresh_token_expiry": 2160
+}
